@@ -76,11 +76,8 @@ class _EditListState extends State<EditList> {
                   ),
                 ),
                 SizedBox(height: 20),
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.green, // background
-                    onPrimary: Colors.black, // foreground
-                  ),
+                IconButton(
+                  icon: Icon(Icons.save),
                   onPressed: () async {
                     await DatabaseHelper.instance.add(
                       Personen(
@@ -100,7 +97,6 @@ class _EditListState extends State<EditList> {
                       },
                     );
                   },
-                  child: Text('Save'),
                 ),
               ],
             ),

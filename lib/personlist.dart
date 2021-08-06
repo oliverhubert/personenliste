@@ -113,6 +113,16 @@ class _PersonListState extends State<PersonList> {
                                   ),
                                 ],
                               ),
+                              IconButton(
+                                icon: const Icon(Icons.delete),
+                                tooltip: 'delete',
+                                onPressed: () {
+                                  setState(() {
+                                    DatabaseHelper.instance
+                                        .remove(personen.id!);
+                                  });
+                                },
+                              ),
                             ],
                           );
                         } else
