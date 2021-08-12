@@ -41,75 +41,81 @@ class _PersonListState extends State<PersonList> {
                             children: <Widget>[
                               Row(
                                 children: [
-                                  Container(
-                                    height: 80,
-                                    width: 130,
-                                    color: Colors.yellow,
-                                    alignment: Alignment.center,
-                                    child: Text('Details:',
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline6!
-                                            .copyWith(color: Colors.red)),
+                                  Flexible(
+                                    child: Container(
+                                      height: 80,
+                                      color: Colors.grey,
+                                      alignment: Alignment.center,
+                                      child: Text('Details:',
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline6!
+                                              .copyWith(color: Colors.black)),
+                                    ),
                                   ),
-                                  Container(
-                                    height: 80,
-                                    width: 130,
-                                    color: Colors.yellow,
-                                    alignment: Alignment.center,
-                                    child: Text(personen.name,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline6!
-                                            .copyWith(color: Colors.red)),
+                                  Flexible(
+                                    child: Container(
+                                      height: 80,
+                                      color: Colors.grey,
+                                      alignment: Alignment.center,
+                                      child: Text(personen.name,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline6!
+                                              .copyWith(color: Colors.black)),
+                                    ),
                                   ),
-                                  Container(
-                                    height: 80,
-                                    width: 130,
-                                    color: Colors.yellow,
-                                    alignment: Alignment.center,
-                                    child: Text(personen.geb,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline6!
-                                            .copyWith(color: Colors.red)),
+                                  Flexible(
+                                    child: Container(
+                                      height: 80,
+                                      color: Colors.grey,
+                                      alignment: Alignment.center,
+                                      child: Text(personen.geb,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline6!
+                                              .copyWith(color: Colors.black)),
+                                    ),
                                   ),
                                 ],
                               ),
                               Row(
                                 children: [
-                                  Container(
-                                    height: 80,
-                                    width: 130,
-                                    color: Colors.yellow,
-                                    alignment: Alignment.center,
-                                    child: Text(personen.adress,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline6!
-                                            .copyWith(color: Colors.red)),
+                                  Flexible(
+                                    child: Container(
+                                      height: 80,
+                                      color: Colors.grey,
+                                      alignment: Alignment.center,
+                                      child: Text(personen.adress,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline6!
+                                              .copyWith(color: Colors.black)),
+                                    ),
                                   ),
-                                  Container(
-                                    height: 80,
-                                    width: 130,
-                                    color: Colors.yellow,
-                                    alignment: Alignment.center,
-                                    child: Text(personen.email,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline6!
-                                            .copyWith(color: Colors.red)),
+                                  Flexible(
+                                    child: Container(
+                                      height: 80,
+                                      color: Colors.grey,
+                                      alignment: Alignment.center,
+                                      child: Text(personen.email,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline6!
+                                              .copyWith(color: Colors.black)),
+                                    ),
                                   ),
-                                  Container(
-                                    height: 80,
-                                    width: 130,
-                                    color: Colors.yellow,
-                                    alignment: Alignment.center,
-                                    child: Text(personen.tel,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline6!
-                                            .copyWith(color: Colors.red)),
+                                  Flexible(
+                                    child: Container(
+                                      height: 80,
+                                      color: Colors.grey,
+                                      alignment: Alignment.center,
+                                      child: Text(personen.tel,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline6!
+                                              .copyWith(color: Colors.black)),
+                                    ),
                                   ),
                                 ],
                               ),
